@@ -1,0 +1,12 @@
+{
+  "name": "mobile-engineer-candidate-kit",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node mock-server.mjs",
+    "fixtures:oversize": "node make-oversize.mjs",
+    "test": "node --test mock-server.test.mjs"
+  }
+}

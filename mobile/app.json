@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Statement Import",
+    "slug": "statement-import",
+    "scheme": "statement-import",
+    "version": "0.1.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.example.statementimport",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.example.statementimport",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    }
+  }
+}

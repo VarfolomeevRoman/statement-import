@@ -1,0 +1,20 @@
+{
+  "name": "statement-import-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0 <23 || >=24.3.0 <25 || >=26.0.0"
+  },
+  "scripts": {
+    "start": "npm --prefix mobile start",
+    "ios": "npm --prefix mobile run ios",
+    "android": "npm --prefix mobile run android",
+    "android:studio": "node scripts/open-android-studio.mjs",
+    "prebuild": "npm --prefix mobile run prebuild --",
+    "typecheck": "npm --prefix mobile run typecheck",
+    "test:mobile": "npm --prefix mobile test",
+    "mock": "npm --prefix mobile-engineer-kit start",
+    "test:mock": "npm --prefix mobile-engineer-kit test",
+    "fixtures:oversize": "npm --prefix mobile-engineer-kit run fixtures:oversize"
+  }
+}

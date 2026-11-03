@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+.expo/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+mobile/ios/
+mobile/android/
+/output/
+mobile-engineer-kit/.mock-state.json.tmp
